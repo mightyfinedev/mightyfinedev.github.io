@@ -5,7 +5,9 @@
     left:250px;
     top:15%;
     color: whitesmoke;
-    transition: 1s ease;
+    /* transition: 1s ease; */
+    transition-delay: 1s;
+    transition: 1s ease-out;
 }
 
 .headskill{
@@ -13,7 +15,9 @@
     font-size: 66px;
     font-weight: 700;
     color: #FAFA37;
-    transition: 1s ease;
+    /* transition: 1s ease; */
+    transition-delay: 1s;
+    transition: 1s ease-out;
 }
 
 .skill p a{
@@ -32,7 +36,9 @@
     left: 60vw;
     top: 0%;
     z-index: -1;
-    transition: 1s ease;
+    /* transition: 1s ease; */
+    transition-delay: 3s;
+    transition: 1s ease-out;
 }
 
 .quote{

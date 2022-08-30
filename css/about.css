@@ -5,7 +5,9 @@
     left:250px;
     top:25%;
     color: whitesmoke;
-    transition: 1s ease;
+    /* transition: 1s ease; */
+    transition-delay: 1s;
+    transition: 1s ease-out;
 }
 
 .heading{
@@ -14,6 +16,8 @@
     font-weight: 700;
     color: #FAFA37;
     transition: 1s ease;
+    transition-delay: 1s;
+    transition: 1s ease-out;
 }
 
 .about p a{
@@ -27,7 +31,9 @@
     left: 60vw;
     top: 0%;
     z-index: -1;
-    transition: 1s ease;
+    /* transition: 1s ease; */
+    transition-delay: 1s;
+    transition: 1s ease-out;
 }
 
 @media  (max-width: 500px){
